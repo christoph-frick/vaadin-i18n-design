@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+dependencies {
+    compile "com.vaadin:vaadin-server:${vaadinVersion}"
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.google.guava:guava:21.0'
+}
